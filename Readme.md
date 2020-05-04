@@ -61,7 +61,6 @@ Connect with a dockerised instance of mongodb
 Develop a front end
 
 
-**Please feel free to add more features**
-**Cheers**
+###Please feel free to add more features
 **RC**
 
