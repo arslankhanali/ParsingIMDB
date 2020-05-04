@@ -4,7 +4,7 @@ Find all the information about a movie by using just it's name.
 This project runs in a docker container. 
 APIs are made with flask. 
 Project language is python. 
-Once the container starts, search in a browser by `localhots:5000/movie/<<name>>`, which should return a json type reply.
+Once the container starts, search in a browser as `localhost:5000/movie/<<name>>`, which should return a json type reply. `localhost:5000/movieurl/<<name>>`, should am imdb url.
 
 
 ## Usage
@@ -34,7 +34,7 @@ Subsequent response definitions will detail the expected value of the `data fiel
     {
     "message": "Movie found",
     "data": {
-        "Tomb Raider": [
+        "movie": [
             {
                 "title": "Tomb Raider",
                 "url": "https://www.imdb.com/title/tt1365519/",
@@ -61,6 +61,7 @@ Connect with a dockerised instance of mongodb
 Develop a front end
 
 
-### Please feel free to add more features
+**Please feel free to add more features**
+**Cheers**
 **RC**
 
