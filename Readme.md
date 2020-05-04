@@ -11,7 +11,7 @@ Project language is python.
 
 - To start first time `docker-compose build`
 - Restarting container ``docker-compose up``
-- Once the container starts, search in a browser as `localhost:5000/movie/<<name>>`, which should return a json type reply. `localhost:5000/movieurl/<<name>>`, should return imdb url for the movie.
+- Once the container starts, search in a browser as `localhost:5000/movie/<name>`, which should return a json type reply. `localhost:5000/movieurl/<name>`, should return imdb url for the movie.
 
 All responses will have the form
 
@@ -26,7 +26,8 @@ Subsequent response definitions will detail the expected value of the `data fiel
 
 ## Lookup movies
 
-`GET /movie/<movie_name>`
+`GET /movie/tomb raider`\
+or in a browser type `localhost:5000/movie/tomb raider`
 
 **Response**
 
@@ -65,6 +66,7 @@ Connect with a dockerised instance of mongodb
 Develop a front end
 
 
-###Please feel free to add more features
+### Please feel free to add more features
+Cheers\
 **RC**
 
