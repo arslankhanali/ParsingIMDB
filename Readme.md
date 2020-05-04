@@ -1,5 +1,12 @@
 # Get Movie information from IMDB
 
+Find all the information about a movie by using just it's name. 
+This project runs in a docker container. 
+APIs are made with flask. 
+Project language is python. 
+Once the container starts, search in a browser by `localhots:5000/movie/<<name>>`, which should return a json type reply.
+
+
 ## Usage
 
 All responses will have the form
@@ -48,4 +55,8 @@ Subsequent response definitions will detail the expected value of the `data fiel
 }
 }
 ```
+
+## Future
+Connect with a dockerised instance of mongodb
+Develop a front end
 
