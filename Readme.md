@@ -4,10 +4,14 @@ Find all the information about a movie by using just it's name.
 This project runs in a docker container. 
 APIs are made with flask. 
 Project language is python. 
-Once the container starts, search in a browser as `localhost:5000/movie/<<name>>`, which should return a json type reply. `localhost:5000/movieurl/<<name>>`, should am imdb url.
+
 
 
 ## Usage
+
+- To start first time `docker-compose build`
+- Restarting container ``docker-compose up``
+- Once the container starts, search in a browser as `localhost:5000/movie/<<name>>`, which should return a json type reply. `localhost:5000/movieurl/<<name>>`, should return imdb url for the movie.
 
 All responses will have the form
 
