@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  movie_searcher:
+    build: .
+    container_name: movie_searcher
+    volumes:
+      - .:/usr/src/app #mount current (.) directory in (/usr/src/app) 
+      #referred in Dockerfile as well
+    ports:
+      - 5000:80
