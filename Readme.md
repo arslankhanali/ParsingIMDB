@@ -1,9 +1,9 @@
 # Get Movie information from IMDB
 
-Find all the information about a movie by using just it's name. 
-This project runs in a docker container. 
-APIs are made with flask. 
-Project language is python. 
+- Find all the information about a movie by using just it's name. 
+- This project runs in a docker container. 
+- APIs are made with flask. 
+- Project language is python. 
 
 
 
@@ -22,8 +22,6 @@ All responses will have the form
 }
 ```
 
-Subsequent response definitions will detail the expected value of the `data field`
-
 ## Lookup movies
 
 `GET /movie/tomb raider`\
@@ -35,8 +33,7 @@ or in a browser type `localhost:5000/movie/tomb raider`
 - `200 OK` on success
 
 ```json
-{
-    {
+{  
     "message": "Movie found",
     "data": {
         "movie": [
@@ -58,11 +55,11 @@ or in a browser type `localhost:5000/movie/tomb raider`
         ]
     }
 }
-}
 ```
 
+
 ## Future
-Connect with a dockerised instance of mongodb
+Connect with a dockerised instance of mongodb\
 Develop a front end
 
 
